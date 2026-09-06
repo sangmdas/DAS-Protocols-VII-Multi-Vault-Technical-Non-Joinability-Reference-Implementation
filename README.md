@@ -1,0 +1,2 @@
+# DAS-Protocols-VII-Multi-Vault-Technical-Non-Joinability-Reference-Implementation
+Runnable multi-vault AI security reference demonstrating Technical Non-Joinability: independent identity, content and relationship-mapping control; session-bound reconstruction; minimum-necessary ephemeral views; provenance tracking; sealed Candidate Outputs; output-specific release authority; automated tests; latency benchmarks&amp; Legacy integration
