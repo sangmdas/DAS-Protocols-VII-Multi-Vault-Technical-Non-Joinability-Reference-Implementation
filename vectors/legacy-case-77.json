@@ -1,0 +1,14 @@
+{
+  "legacy_record": {
+    "name": "Alice Example",
+    "email": "alice@example.test",
+    "case_summary": "Battery overheated during evaluation",
+    "future_program": "Project Aurora"
+  },
+  "authorized_fields": ["identity.name", "content.case_summary"],
+  "authorized_relation": "belongs_to",
+  "purpose": "customer-support",
+  "destination": "internal-ui",
+  "recipient": "analyst",
+  "expected": "The future_program field is not released into the ephemeral reconstructed view."
+}

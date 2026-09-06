@@ -1,0 +1,14 @@
+DAS Protocols VII Multi-Vault Reference v0.1.0
+Local reference measurement; 500 iterations; warm components; sequential local vault calls.
+
+RAO issue                          median 112.40 us   p95 206.14 us   p99 389.91 us
+3 vault-local releases             median 622.19 us   p95 851.52 us   p99 1510.29 us
+protected reconstruction           median 521.33 us   p95 723.46 us   p99 1283.50 us
+seal+POVR+cap+boundary release     median 1085.32 us  p95 1485.41 us  p99 3213.52 us
+end-to-end protected path          median 2378.18 us  p95 3275.42 us  p99 5607.64 us
+
+EXCLUDES: AI inference, network/RPC, remote vault latency, remote attestation, HSM/KMS,
+distributed commit, human approval, production logging, geographically distributed deployment.
+
+These numbers are observations from this Python reference run, not protocol latency guarantees.
+The implementation supports parallel vault fan-out; local CPU timing is not a proxy for remote-RPC benefit.

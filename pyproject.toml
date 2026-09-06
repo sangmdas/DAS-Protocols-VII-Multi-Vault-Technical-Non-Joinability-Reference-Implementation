@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "das-vii-multivault-reference"
+version = "0.1.0"
+description = "Runnable reference implementation of DAS Protocols VII multi-vault Technical Non-Joinability and output finality"
+requires-python = ">=3.10"
+dependencies = ["cryptography>=42"]
+
+[project.scripts]
+das-vii-multivault-demo = "das_vii_multivault.demo:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
