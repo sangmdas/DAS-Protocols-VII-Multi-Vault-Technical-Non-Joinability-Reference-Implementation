@@ -2,7 +2,7 @@
 
 ## Runnable reference implementation — v0.1.0
 
-#### This repository provides an executable reference implementation of selected technical mechanisms disclosed in DAS Protocols VII — “Architecting Resilience for Enterprise AI: Preventing Data Reconstruction, Exfiltration, and Unauthorized Consequence in Compromised AI Environments.”
+### A runnable reference implementation accompanies this profile and exercises the complete multi-vault reconstruction-to-release chain through 16 automated tests, including missing relationship authority, unauthorized association, cross-session reuse, epoch change, output mutation, destination substitution, replay, poisoned-session failure, parallel vault release, and legacy-database decomposition; an illustrative local benchmark measured approximately 2.38 ms for the complete protected path, excluding network, attestation, HSM/KMS, AI-inference, and production-distributed-system overhead.
 
 ### Why this matters
 
